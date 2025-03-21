@@ -127,11 +127,11 @@ This project presents an automated system for detecting machine faults through a
 
 
 ### 🔹 **Model Evaluation Results**  
-<img src="https://github.com/user-attachments/assets/18a48c5d-6c12-4cec-8aac-0cc8fa92e952" width="600">
+<img src="https://github.com/user-attachments/assets/34a1f897-ee78-4edb-8437-ff16a2ca64d9" width="600">
  
 
 ### 🔹 **Confusion Matrix for Model Performance**  
-<img src="https://github.com/user-attachments/assets/cb6215d5-5d83-4fe5-b726-9812a6f60a26" width="600">
+<img src="https://github.com/user-attachments/assets/50e071cb-c3b9-4207-b662-2fc3b56663b5" width="600">
 
 
 There are opportunities for further improvements:
