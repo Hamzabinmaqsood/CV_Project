@@ -1,6 +1,21 @@
 # 🔧 AI-Powered Fault Detection from Acoustic Data  
 ## 🎧 Deep Learning for Predictive Maintenance
 
+# Table of Contents
+
+[Project Overview](#Project-Overview)
+
+1. [Abstract](#Abstract)
+2. [Introduction](#introduction)  
+3. [Installation](#Installation)
+4. [Methodology](#methodology)
+5. [Data Augmentation](#Data-Augmentation)
+6. [Model Training](#model-training)
+7. [Evaluation Metrics](#evaluation-metrics)
+8. [Results](#results)
+9. [Future Improvements](#future-improvements)
+10. [Conclusion](#conclusion)
+
 ## 📝 Project Overview  
 Industrial machines generate specific sounds when they operate, and deviations in these sounds can indicate faults.  
 However, traditional fault detection methods rely on **manual inspections** or **vibration-based monitoring**, which are **expensive and time-consuming**.  
@@ -91,16 +106,16 @@ Softmax Output Layer: Outputs the probability distribution across fault categori
 
 ## Evaluation Metrics
 Several metrics are used to assess the model:
-
-## Accuracy: The percentage of correct predictions over total samples.
+Accuracy: The percentage of correct predictions over total samples.
 Loss Graphs: Track how well the model learns across epochs—lower loss signifies better training progress.
 Confusion Matrix: Offers a detailed view of which classes are correctly or incorrectly identified, helping spot categories the model finds challenging.
 Comparison with Other Models: The CNN’s performance is evaluated against alternative architectures to ensure optimal results.
 The final model reaches about 87% accuracy, highlighting its capability to detect faults from audio signals.
 
-## Model Pipeline & Results 
+Model Pipeline & Results 
 This project presents an automated system for detecting machine faults through audio analysis and deep learning. By converting audio snippets into image representations and training a CNN, it accurately classifies different types of faults. This approach is both reliable and efficient, laying the groundwork for practical applications in real industrial settings.
 
+## Results
 ### 🔹 **Model Architecture Overview**
 <img src="https://github.com/user-attachments/assets/9904042c-f29c-4156-bae5-092abf2bb155" width="600">
 <img src="https://github.com/user-attachments/assets/3f4c8948-7122-401b-89e8-d85e64f72e37" width="600">
