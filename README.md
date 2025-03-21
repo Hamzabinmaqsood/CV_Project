@@ -24,31 +24,44 @@ To use the project, follow these steps:
 1. Clone the Repository
 Clone the GitHub repository to your local machine.
 
-git clone https://github.com/muneebashafiq/Automatic-machine-fault-detection-from-Acoustic-Data-using-Deep-Learning
+``` git clone https://github.com/muneebashafiq/Automatic-machine-fault-detection-from-Acoustic-Data-using-Deep-Learning ```
+
 2. Install Dependencies
 Install the required dependencies by running the following command in your terminal.
-
+```
 pip install -r requirements.txt
+```
+
 Usage
 To use the project:
 
 1. Run on Google Colab:
 Upload your dataset to Google Drive.
 Mount your drive in Colab:
+```
 from google.colab import drive
 drive.mount('/content/drive')
+```
+
 Set the dataset path accordingly:
+```
 audio_dir = '/content/drive/MyDrive/dataset_folder/'
+```
+
 2. Running Locally
 To run the project locally, follow these steps:
 
 Run the Project: Start the application.
+```
 python Machine_fault_detection.ipynb
+```
 Or Use Jupyter Notebook
 Dataset
-Download the Dataset form this link:
 
+Download the Dataset form this link:
+```
 https://drive.google.com/drive/folders/1Y7-NCyYQb0KRe6BtK8PycGHIWrHkDZ_L
+```
 
 ## Methodology
 This project follows a methodical workflow: data preprocessing, feature extraction, data augmentation, model training, and evaluation.
@@ -89,19 +102,19 @@ The final model reaches about 87% accuracy, highlighting its capability to detec
 This project presents an automated system for detecting machine faults through audio analysis and deep learning. By converting audio snippets into image representations and training a CNN, it accurately classifies different types of faults. This approach is both reliable and efficient, laying the groundwork for practical applications in real industrial settings.
 
 ### 🔹 **Model Architecture Overview**
-<img src="https://github.com/user-attachments/assets/9904042c-f29c-4156-bae5-092abf2bb155"" width="600">
-<img src="https://github.com/user-attachments/assets/3f4c8948-7122-401b-89e8-d85e64f72e37"" width="600">
+<img src="https://github.com/user-attachments/assets/9904042c-f29c-4156-bae5-092abf2bb155" width="600">
+<img src="https://github.com/user-attachments/assets/3f4c8948-7122-401b-89e8-d85e64f72e37" width="600">
  
 ### 🔹 **Model Training Progress**  
-<img src="https://github.com/user-attachments/assets/9c24b9b3-b995-4668-b20c-e0364f803f37"" width="600">
+<img src="https://github.com/user-attachments/assets/9c24b9b3-b995-4668-b20c-e0364f803f37" width="600">
 
 
 ### 🔹 **Model Evaluation Results**  
-<img src="https://github.com/user-attachments/assets/18a48c5d-6c12-4cec-8aac-0cc8fa92e952"" width="600">
+<img src="https://github.com/user-attachments/assets/18a48c5d-6c12-4cec-8aac-0cc8fa92e952" width="600">
  
 
 ### 🔹 **Confusion Matrix for Model Performance**  
-<img src="https://github.com/user-attachments/assets/cb6215d5-5d83-4fe5-b726-9812a6f60a26"" width="600">
+<img src="https://github.com/user-attachments/assets/cb6215d5-5d83-4fe5-b726-9812a6f60a26" width="600">
 
 
 There are opportunities for further improvements:
