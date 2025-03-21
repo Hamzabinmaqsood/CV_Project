@@ -40,7 +40,7 @@ To use the project, follow these steps:
 Clone the GitHub repository to your local machine.
 
 ``` 
-git clone https://github.com/muneebashafiq/Automatic-machine-fault-detection-from-Acoustic-Data-using-Deep-Learning
+git clone (https://github.com/Hamzabinmaqsood/CV_Project/tree/main)
 ```
 
 2. Install Dependencies
